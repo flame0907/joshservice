@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+     <!-- ....................navbar start....................... -->
+     <nav class="navbar">
+        <div class="navbar-left">
+        <a href="index.html" class="logo" > <img src="images/logo.png" alt=""> </a>
+        <!-- <a href="index.html" class="logo" > <img src="images/jsj.png" alt=""> </a> -->
+        <div class="searh-box">
+            <img src="images/search.png" >
+            <input type="text" placeholder="Search">
+        </div>
+        </div>
+
+        <div class="navbar-centre">
+         <ul>
+            <li><a href="index.html" ><img src="images/home.png" alt=""><span>Home</span></a></li>
+            <li><a href="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+            <li><a href="#"class="active-link"><img src="images/jobs.png" alt=""><span>Services</span></a></li>
+            <li><a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+            <li><a href="#"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+         </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+
+            </div>
+            
+        </div>
+       <!-- ...................profile drop down menu .............. -->
+
+       <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="images/user-1.png" >
+                 <div>
+                <h3>Prakash Sarwade</h3>
+            <a href="profile.html"> See Your Profile</a>
+            </div>
+            </div>
+            <hr>
+
+              <a href="#" class="profile-menu-link">
+        <img src="images/feedback.png">
+        <p>Give Feedback</p>
+        <span>></span>
+       </a>
+       <a href="#" class="profile-menu-link">
+        <img src="images/setting.png">
+        <p>Settings & Privacy</p>
+        <span>></span>
+       </a>
+
+       <a href="#" class="profile-menu-link">
+        <img src="images/help.png">
+        <p>Help & Support</p>
+        <span>></span>
+       </a>
+
+       <a href="#" class="profile-menu-link">
+        <img src="images/display.png">
+        <p>Display & Accessibility</p>
+        <span>></span>
+       </a>
+
+       <a href="#" class="profile-menu-link">
+        <img src="images/logout.png">
+        <p>Logout</p>
+        <span>></span>
+       </a>
+
+     
+            
+        </div>
+       </div>
+      
+
+    </nav>
+
+    <!-- ..................navbar end............................. -->
+   <!-- product -->
+
+   <section class="product" id="product">
+
+    <h1 class="heading"> our <span>Services</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/Teacher/teacher.webp" alt="">
+            </div>
+            <div class="content">
+                
+                <a href="#teachers" class="btn" id="btn-1">Teacher</a> <br>
+               
+            </div>
+        </div>
+
+       
+
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/doctor/doctor.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#doctors" class="btn">Doctor</a> <br>
+                
+              
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/electrician/electrician.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#electrician" class="btn">Electrician</a> <br>
+                
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/plumber/plumber.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#plumbers" class="btn">Plumber</a> <br>
+                
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/fashion-designer/fashiondesigner.avif" alt="">
+            </div>
+            <div class="content">
+                
+                <a href="#fashion-designer" class="btn">Fashion Designer</a> <br>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/housekeeper/housekeeper.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#housekeeper" class="btn">Housekeeper</a> <br>
+                
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/engineer/engineer.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#engineer" class="btn">Engineer</a> <br>
+                
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/dancer/dancer.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#dancer" class="btn">Dancer</a> <br>
+                
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/chef/chef.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#chef" class="btn">Chef</a> <br>
+                
+                
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/mechanic/mechanic.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#mechanic" class="btn">Mechanic</a> <br>
+                
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/photographer/photographer.avif" alt="">
+            </div>
+            <div class="content">
+                <a href="#photographer" class="btn">Photographer</a> <br>
+                
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/babycaretaker/babycaretaker.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#babycaretaker" class="btn">Babycaretaker</a> <br>
+                
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/makeup-artist/makeupartist.avif" alt="">
+            </div>
+            <div class="content"> 
+                
+                <a href="#makeupartist" class="btn">Makeup Artist</a> <br>
+               
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- end -->
+
+
+
+<!-- 1 -->
+<!-- service  -->
+
+<section class="product" id="teachers">
+
+<h1 class="heading"> our <span>Teachers</span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/services/Teacher/teacher1.webp" alt="">
+        </div>
+        <div class="content">
+           
+            
+            <div class="name">Swapna Sonawane</div><br>
+<div class="info"><b>Sub:</b>Math</div><br>
+<div class="info"><b>Fees:</b>Rs.3000</div><br>
+
+<div class="info"><b>Duration:</b>6 Months</div><br>
+         
+            <a href="#contact" class="btn">View Profile</a> <br>
+            
+        </div>
+    </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/services/Teacher/teacher.webp" alt="">
+        </div>
+        <div class="content">
+            
+            
+            <div class="name">Vaishnavi Thorat</div><br>
+            <div class="info"><b>Sub:</b>PCMB</div><br>
+            <div class="info"><b>Fees:</b>Rs.5000</div><br>
+            <div class="info"><b>Duration:</b>4 Months</div><br>
+            
+            <a href="#contact" class="btn">View Profile</a> <br>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/services/Teacher/teacher1.webp" alt="">
+        </div>
+        <div class="content">
+           
+           
+            <div class="name">Anjali Kambale</div><br>
+            <div class="info"><b>Sub:</b>Grammer</div><br>
+            <div class="info"><b>Fees:</b>Rs.4000</div><br>
+            <div class="info"><b>Duration:</b>5 Months</div><br>
+            
+            <a href="#contact" class="btn">View Profile</a> <br>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/services/Teacher/teacher.webp" alt="">
+        </div>
+        <div class="content">
+           
+            
+            <div class="name">Monika Manjare</div><br>
+            <div class="info"><b>Sub:</b>Psychology</div><br>
+            <div class="info"><b>Fees:</b>Rs.4000</div><br>
+            <div class="info"><b>Duration:</b>3 Months</div><br>
+            
+            <a href="#contact" class="btn">View Profile</a> <br>
+        </div>
+    </div>
+
+    
+    
+    </div>
+
+</div>
+
+</section>
+
+<!-- end --> 
+
+<!-- 2 -->
+<!-- service -->
+
+<section class="product" id="doctors">
+
+    <h1 class="heading"> our <span>Doctors</span></h1>
+    
+    <div class="box-container">
+    
+        
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/doctor/d1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Lata Vitakar</div><br>
+                <div class="info"><b>Education:</b>MBBS</div><br>
+                <div class="info"><b>Fees:</b>Rs.2000</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/services/doctor/doctor.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Piyush Bharad</div><br>
+                
+                <div class="info"><b>Education:</b>BAMS</div><br>
+                <div class="info"><b>Fees:</b>Rs.1800</div><br>
+
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/doctor/d1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Lakshmi Jadhav</div><br>
+                <div class="info"><b>Education:</b>BHMS</div><br>
+                <div class="info"><b>Fees:</b>Rs.1700</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/doctor/doctor.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Samit Rahane</div><br>
+                <div class="info"><b>Education:</b>MS</div><br>
+                <div class="info"><b>Fees:</b>Rs.1500</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 3-->
+<!-- service  -->
+
+<section class="product" id="electrician">
+
+    <h1 class="heading"> our <span>Electrician</span></h1>
+    
+    <div class="box-container">
+    
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/services/electrician/el1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Ayush Sharma</div><br>
+                <div class="info"><b>Charges:</b>250/-Hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/electrician/electrician.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Vijay Singh</div><br>
+                <div class="info"><b>Charges:</b>200/-Hour</div><br>
+              
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/electrician/el1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Vikas Patil</div><br>
+                
+                <div class="info"><b>Charges:</b>180/-Hour</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/electrician/electrician.webp" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Aryan Das</div><br>
+                <div class="info"><b>Charges:</b>150/-Hour</div><br>
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 4 -->
+<!-- product -->
+
+<section class="product" id="plumbers">
+
+    <h1 class="heading"> our <span>Plumbers</span></h1>
+    
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/services/plumber/plumber1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Shantanu Kapoor</div><br>
+                <div class="info"><b>Charges:</b>300/-Hour</div><br>
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+        
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/plumber/plumber.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Akash Varma</div><br>
+                <div class="info"><b>Charges:</b>280/-Hour</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/plumber/plumber1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Arjun sharma</div><br>
+                <div class="info"><b>Charges:</b>250/-Hour</div><br>
+               
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/plumber/plumber.webp" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Akshay Bhatiya</div><br>
+                <div class="info"><b>Charges:</b>200/-Hour</div><br>
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    <!-- end --> 
+
+
+    <!-- 5 -->
+<!-- product -->
+
+<section class="product" id="fashion-designer">
+
+    <h1 class="heading"> our <span>fashion-designer</span></h1>
+    
+    <div class="box-container">
+    
+        
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/fashion-designer/f1.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Sonam Malohtra</div><br>
+                <div class="info"><b>Charges:</b>10000/-Design</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/fashion-designer/fashiondesigner.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Lara Bhat</div><br>
+                <div class="info"><b>Charges:</b>8000/-Design</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/fashion-designer/f1.avif" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Rutuja sonawane</div><br>
+                <div class="info"><b>Charges:</b>7500/-Design</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/fashion-designer/fashiondesigner.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Bharati Patil</div><br>
+                <div class="info"><b>Charges:</b>6000/-Design</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+   
+
+   
+    <!-- 6 -->
+<!-- product -->
+
+<section class="product" id="housekeeper">
+
+    <h1 class="heading"> our <span>Housekeepers</span></h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/housekeeper/h1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Sidharth Adavani</div><br>
+                <div class="info"><b>Charges:</b>15000/-month</div><br>
+              
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/housekeeper/housekeeper.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Aliya Bhat</div><br>
+                <div class="info"><b>Charges:</b>14000/-month</div><br>
+              
+            
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/housekeeper/h1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Varun Dhavan</div><br>
+                <div class="info"><b>Charges:</b>13500/-month</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/housekeeper/housekeeper.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Priti Zinta</div><br>
+                <div class="info"><b>Charges:</b>12000/-month</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 7 -->
+<!-- product -->
+
+<section class="product" id="engineer">
+
+    <h1 class="heading"> our <span>Engineers</span></h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/engineer/e1.webp"alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Kartik Deore</div><br>
+                <div class="info"><b>Education:</b>B.Tech(IT)</div><br>
+                                <div class="info"><b>Job:</b>Software Developer</div><br>
+              <div class="info"><b>Charges:</b>1000/-hour</div><br>
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/engineer/engineer.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Shubham Bhelave</div><br>
+                <div class="info"><b>Education:</b>B.Tech(CS)</div><br>
+                <div class="info"><b>Job:</b>UI Designer</div><br>
+                <div class="info"><b>Charges:</b>2000/-hour</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/user-1.jpg" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Jyoti Sarwade</div><br>
+                <div class="info"><b>Education:</b>BE</div><br>
+                <div class="info"><b>Job:</b>Web Developer</div><br>
+                <div class="info"><b>Charges:</b>1500/-hour</div><br>
+
+               
+                
+                <a href="profile.html" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/engineer/e1.webp" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Yogesh Bhagat</div><br>
+                <div class="info"><b>Education:</b>M.Tech</div><br>
+                <div class="info"><b>Job:</b>Ethical Hacker</div><br>
+                <div class="info"><b>Charges:</b>5000/-hour</div><br>
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 8-->
+<!-- product -->
+
+<section class="product" id="dancer">
+
+    <h1 class="heading"> our <span>Dancers</span></h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/dancer/d1.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Amrapali Netake</div><br>
+                <div class="info"><b>Charges:</b>15000/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/dancer/dancer.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Jyoti Thorat</div><br>
+                <div class="info"><b>Charges:</b>10000/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/dancer/d1.avif" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Priyanka Paradeshi</div><br>
+                <div class="info"><b>Charges:</b>9000/-hour</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/dancer/dancer.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Ashwini Patil</div><br>
+                <div class="info"><b>Charges:</b>8500/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 9 -->
+<!-- product -->
+
+<section class="product" id="chef">
+
+    <h1 class="heading"> our <span>Chef</span></h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/chef/c1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Jyoti Zinta</div><br>
+                <div class="info"><b>Charges:</b>1500/-day</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/chef/chef.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Ram Bhagat</div><br>
+                <div class="info"><b>Charges:</b>1300/-day</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/chef/c1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Kalpana Thorat</div><br>
+                <div class="info"><b>Charges:</b>1200/-day</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/chef/chef.avif" alt="">
+            </div>
+            <div class="content">
+               
+                <div class="name">Vishal Sarwade</div><br>
+                <div class="info"><b>Charges:</b>1000/-day</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 10 -->
+<!-- product -->
+
+<section class="product" id="mechanic">
+
+    <h1 class="heading"> our <span>Mechanics</span></h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/mechanic/m1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Daya Manjare</div><br>
+                <div class="info"><b>Charges:</b>500/-hour</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/mechanic/mechanic.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Lara Dhupiya</div><br>
+                <div class="info"><b>Charges:</b>450/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/mechanic/m1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Aniket Padukon</div><br>
+                <div class="info"><b>Charges:</b>400/-hour</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/mechanic/mechanic.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Vijay shekh</div><br>
+                <div class="info"><b>Charges:</b>300/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 11 -->
+<!-- product -->
+
+<section class="product" id="photographer">
+
+    <h1 class="heading"> our <span>Photographer</span></h1>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/services/photographer/photo1.avif" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Mayur Jagtap</div><br>
+                <div class="info"><b>Charges:</b>10000/-hour</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/services/photographer/photographer.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Ashwini Thorat</div><br>
+                <div class="info"><b>Charges:</b>9500/-hour</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/photographer/photo1.avif" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Ajay Kambale</div><br>
+                <div class="info"><b>Charges:</b>8500/-hour</div><br>
+               
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/photographer/photographer.avif" alt="">
+            </div>
+            <div class="content">
+               
+                <div class="name">Swati Sharma</div><br>
+                <div class="info"><b>Charges:</b>7000/-hour</div><br>
+              
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+    <!-- 12 -->
+<!-- product -->
+
+<section class="product" id="babycaretaker">
+
+    <h1 class="heading"> our <span>Babycaretaker</span></h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/services/babycaretaker/b1.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Nilam Advani</div><br>
+                <div class="info"><b>Charges:</b>1000/-day</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/babycaretaker/babycaretaker.webp" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Shila pandya</div><br>
+                <div class="info"><b>Charges:</b>900/-day</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/babycaretaker/b1.webp" alt="">
+            </div>
+            <div class="content">
+               
+               
+                <div class="name">Radhika Khan</div><br>
+                <div class="info"><b>Charges:</b>850/-day</div><br>
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/babycaretaker/babycaretaker.webp" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Rani Vaghamare</div><br>
+                <div class="info"><b>Charges:</b>800/-day</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+
+
+    <!-- 13 -->
+<!-- product -->
+
+<section class="product" id="makeupartist">
+
+    
+    <h1 class="heading"> our <span>Makeup Artist</span></h1>
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/makeup-artist/ma1.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Nandini Ige</div><br>
+                <div class="info"><b>Charges:</b>20000/-hour</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/makeup-artist/makeupartist.avif" alt="">
+            </div>
+            <div class="content">
+                
+                
+                <div class="name">Akansha Muley</div><br>
+                <div class="info"><b>Charges:</b>17000/-hour</div><br>
+              
+               
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/makeup-artist/ma1.avif" alt="">
+            </div>
+            <div class="content">
+               
+                <div class="name">Yogita Sahane</div><br>
+                <div class="info"><b>Charges:</b>16000/-hour</div><br>
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="image">
+                <img src="images/services/makeup-artist/makeupartist.avif" alt="">
+            </div>
+            <div class="content">
+               
+                
+                <div class="name">Vanshika Patil</div><br>
+                <div class="info"><b>Charges:</b>15000/-hour</div><br>
+              
+                
+                <a href="#contact" class="btn">View Profile</a> <br>
+            </div>
+        </div>
+    
+        
+        
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- end --> 
+    
+  <!-- footer -->
+
+  <section class="footer">
+
+   
+    <div class="credit">created by <span> sarwadejyoti </span> We are family!</div>
+</section>
+</body>
+</html>
